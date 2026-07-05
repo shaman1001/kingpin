@@ -21,5 +21,7 @@ Single index. Details live in the source docs.
 | M1 | ICP v1: services companies 5-30 people | market-analysis | 2026-07-05 |
 | M2 | Positioning: AI outcomes + BYO-AI, not ERP/CRM category | market-analysis | 2026-07-05 |
 | M3 | Integrate accounting, never build it | market-analysis | 2026-07-05 |
+| D5 | Core spine vertical- and size-agnostic; all vertical semantics live in packs (subtypes, templates, interview scripts, agent playbooks) | modularity-scope-analysis | 2026-07-05 |
+| D6 | D1/M1 are GTM beachheads, not product caps; product story = "horizontal spine, vertical packs", messaging leads "grows with you" | modularity-scope-analysis | 2026-07-05 |
 
 Next ID prefixes: B = build plan, S = security, U = UX.

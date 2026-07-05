@@ -1,10 +1,10 @@
 # CLAUDE.md — project instructions for Claude Code
 
 ## What this is
-Kingpin: AI-native modular business OS for services SMBs (1-50 people). Info Layer (company knowledge spine) + CRM + Engagement first; ERP/capability modules later. BYO-AI via MCP.
+Kingpin: AI-native modular business OS. Horizontal spine (Info Layer + CRM + agent runtime, vertical/size-agnostic) + vertical packs; Services Pack first. GTM beachhead: services SMBs 5-30 (beachhead, not cap). BYO-AI via MCP.
 
 ## Read first
-1. docs/decisions/DECISIONS.md — 18 binding decisions (D1-M3)
+1. docs/decisions/DECISIONS.md — 20 binding decisions (D1-D6, A1-A7, I1-I4, M1-M3)
 2. docs/product/product-definition-v0.1.md
 3. docs/architecture/architecture-v0.1.md
 4. docs/architecture/info-layer-spec-v0.1.md

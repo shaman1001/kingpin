@@ -54,7 +54,9 @@ Services companies 5-30 people (consultancies, agencies, IT services, profession
 - Enterprise multi-entity -> later
 
 ## 3. Positioning statement (draft)
-"The AI-native business OS for services SMBs: one system that knows your company, runs your sales-to-invoice flow, and works with any AI — yours or ours."
+"The AI-native business OS that knows your company, runs your sales-to-invoice flow, and works with any AI — yours or ours. Built for services SMBs first; grows with you."
+
+Per D6: ICP (M1) is the beachhead sales target, not the product boundary. Story = horizontal spine, vertical packs; verticals arrive as pack releases (D2 order).
 
 ## 4. Risks
 | Risk | Mitigation |
@@ -73,3 +75,4 @@ Services companies 5-30 people (consultancies, agencies, IT services, profession
 
 ## 6. Iteration log
 - v0.1 (2026-07-05): Initial analysis from market research
+- v0.1 amended (2026-07-05): Positioning updated per D5/D6 (beachhead framing, "grows with you")

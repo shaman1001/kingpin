@@ -5,6 +5,8 @@ Status: Draft — foundation for iteration
 ## 1. Product
 AI-native modular business OS for SMBs. Combines ERP, CRM, and capability management on a shared, AI-and-human-readable company information layer. Agents act across modules; the info layer is the context spine and source of truth.
 
+**Product story (D5/D6): horizontal spine, vertical packs.** The spine (Info Layer + CRM + agent runtime + MCP) is vertical- and size-agnostic. Vertical semantics ship as opinionated packs (entity subtypes, templates, interview scripts, agent playbooks); the Services Pack is first. New verticals = pack releases, not re-platforms. Messaging leads "grows with you"; sales targets the beachhead ICP.
+
 ## 2. Market gap
 Existing SMB tools (Odoo, HubSpot, Pipedrive, NetSuite) bolt AI onto legacy schemas. No product has an AI-native data model where agents are first-class actors and company knowledge is structured, versioned, and authoritative.
 
@@ -15,6 +17,8 @@ Existing SMB tools (Odoo, HubSpot, Pipedrive, NetSuite) bolt AI onto legacy sche
 | D2 | Vertical order: Services -> e-commerce -> manufacturing | Services SMBs have lowest data-model complexity, highest pain in project/invoice/CRM flow, fastest AI-delivery leverage | 2026-07-05 |
 | D3 | Build order: Company Info Layer + CRM first | Info layer proves the thesis; CRM is fastest path to daily-use value | 2026-07-05 |
 | D4 | Projects/Engagements are a core entity from day one | What is sold must live somewhere: feeds invoice generation now, AI-assisted delivery later | 2026-07-05 |
+| D5 | Core spine vertical- and size-agnostic; vertical semantics live in packs | Capture larger market via architecture, not GTM spend; avoid Odoo-style config burden (see modularity-scope-analysis) | 2026-07-05 |
+| D6 | D1/M1 are GTM beachheads, not product caps; story = "horizontal spine, vertical packs" | Winning analogs (HubSpot, Shopify, Rippling) sequenced wedge -> expand | 2026-07-05 |
 
 ## 4. Core entity graph (draft)
 Company Info Layer (spine)
@@ -26,6 +30,8 @@ CRM module
 - Engagement -> Deliverables -> Time/Items -> Invoice basis
 
 Key principle: Engagement is the bridge entity. CRM closes into it, invoicing reads from it, AI delivery assistance later operates on it.
+
+Per D5, Engagement in the core schema is a **generic container of sold work** (parties, commercial model, deliverables, billing basis). Services semantics (T&M, hours) live in the Services Pack as subtypes/templates, not in core.
 
 ## 5. AI-native principles
 1. Agent-first: agents read/write the same entities humans do, governed by the info layer
@@ -45,3 +51,4 @@ OUT (later): capability mgmt module, e-commerce/manufacturing verticals, account
 
 ## 8. Iteration log
 - v0.1 (2026-07-05): Initial definition from decisions D1-D4
+- v0.1 amended (2026-07-05): D5-D6 — horizontal spine / vertical packs story; Engagement generic container, services semantics in Services Pack
